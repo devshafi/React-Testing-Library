@@ -31,7 +31,7 @@ it("matches the header by test id", () => {
 
 // FIND BY
 
-// regular test note: findBy requires async await
+// regular test note: findBy requires async await  
 test("header props renders properly", async () => {
   render(<Header title="My Header" />);
   const headingElement = await screen.findByText(/my header/i);
